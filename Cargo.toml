@@ -1,0 +1,10 @@
+[package]
+name = "mango"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0" }
+reqwest = { version = "0.12.11", features = ["json", "blocking"] }
+rand = "0.8"
